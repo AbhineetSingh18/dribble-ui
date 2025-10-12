@@ -127,7 +127,7 @@ html,body {
 }
 
 #hero-buttons{
-    padding: 30px 0;
+    padding: 20px 0;
     display: flex;
     gap: 20px;
 }
@@ -177,7 +177,7 @@ html,body {
     font-family: mona;
     outline: none;
     width: 500px;
-    padding: 20px 25px;
+    padding: 15px 25px;
     border-radius: 30px;
     border: none;
     background-color: #e8e8ee;
@@ -191,10 +191,10 @@ html,body {
     cursor: pointer;
     font-size: 20px;
     position: absolute;
-    top: 450px;
+    top: 424px;
     left: 520px;
     background-color: #EA4C89;
-    padding: 10px;
+    padding: 9px;
     border-radius: 50px;
 }
 
@@ -205,4 +205,33 @@ html,body {
 #hero-left input:hover{
     border: 3px solid #FAEBF9;
     background-color: white;
+}
+
+#popular{
+    width: 500px;
+    margin: 15px 0;
+    padding: 10px 20px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+#popular h3{
+    font-family: mona;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#popular h4{
+    font-family: mona;
+    font-size: 13px;
+    font-weight: 400;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid rgb(221, 214, 214);
+    cursor: pointer;
+}
+
+#popular h4:hover{
+    background-color: #FAF9FB;
 }
