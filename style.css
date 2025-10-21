@@ -330,6 +330,8 @@ html,body {
     background-image: url(./grid1.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child2{
@@ -340,6 +342,8 @@ html,body {
     background-image: url(./grid2.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child3{
@@ -350,6 +354,8 @@ html,body {
     background-image: url(./grid3.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child4{
@@ -360,6 +366,8 @@ html,body {
     background-image: url(./grid4.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child5{
@@ -370,6 +378,8 @@ html,body {
     background-image: url(./grid5.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child6{
@@ -380,6 +390,8 @@ html,body {
     background-image: url(./grid6.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child7{
@@ -390,6 +402,8 @@ html,body {
     background-image: url(./grid7.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child8{
@@ -400,6 +414,8 @@ html,body {
     background-image: url(./grid8.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child9{
@@ -410,6 +426,8 @@ html,body {
     background-image: url(./grid9.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child10{
@@ -420,6 +438,8 @@ html,body {
     background-image: url(./grid10.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child11{
@@ -430,6 +450,8 @@ html,body {
     background-image: url(./grid11.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
 }
 
 #grid-child12{
@@ -440,4 +462,54 @@ html,body {
     background-image: url(./grid12.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid-cards{
+    cursor: pointer;
+}
+
+.bottom{
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    bottom: -30%;
+    background: linear-gradient(transparent, rgb(65, 64, 64));
+    transition: all ease-in-out 0.2s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: mona;
+}
+
+.bottom h3{
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.icons i{
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}
+
+.icons i:hover{
+    color: rgb(99, 98, 98);
+}
+
+
+.grid-cards:hover .bottom{
+    bottom: 0;
 }
